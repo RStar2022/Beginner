@@ -1,0 +1,26 @@
+[
+    {
+        "id" : 0,
+        "Title": "Fukui Anniversary",
+        "Date" : 0,
+        "Time" : 0,
+        "Location" : "Fukui",
+        "Description" : ""
+    },
+    {
+        "id" : 1,
+        "Title": "Fukui Shinkansen Celebration",
+        "Date" : 0,
+        "Time" : 0,
+        "Location" : "Fukui",
+        "Description" : ""
+    },
+    {
+        "id" : 2, 
+        "Title": "Rotary Club",
+        "Date" : "2022/7/10",
+        "Time" : "17:10",
+        "Location" : "Fukui",
+        "Description" : ""
+    }
+]
