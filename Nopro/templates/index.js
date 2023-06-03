@@ -50,3 +50,15 @@ function initMap() {
     navigateToLocation(exchangeLocation);
   });
 }
+
+async function main() {
+	const response = await fetch("http://localhost:5000/events/1", {mode: 'cors'});
+	const jsonData = await response.json();
+
+	console.log(jsonData);
+
+	var sportText = document.getElementById('sport-text');
+	sportText.innerText = jsonData.Title;
+}
+
+window.onload = main;
