@@ -5,7 +5,7 @@
         "Date" : "2023/7/10",
         "Time" : "10:00",
         "Location" : "Fukui Aossa Plaza",
-        "Description" : "Let's join our Volunteer Activities regarding the Celebration of the First Shinkansen in Fukui.For more information please access our website"
+        "Description" : "Let's join our Anniversary Celebration!"
     },
     {
         "id" : 1,
@@ -13,7 +13,7 @@
         "Date" : "2023/7/12",
         "Time" : "16:10",
         "Location" : "Fukui Station",
-        "Description" : ""
+        "Description" : "First Celebration after Shinkansen!"
     },
     {
         "id" : 2, 
@@ -21,6 +21,6 @@
         "Date" : "2023/7/01",
         "Time" : "17:10",
         "Location" : "Fukui Lpa Shopping Mall Lobby",
-        "Description" : ""
+        "Description" : "Sports for kids"
     }
 ]
