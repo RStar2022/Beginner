@@ -2,25 +2,25 @@
     {
         "id" : 0,
         "Title": "Fukui Anniversary",
-        "Date" : 0,
-        "Time" : 0,
-        "Location" : "Fukui",
+        "Date" : "2022/7/10",
+        "Time" : "10:00",
+        "Location" : "Fukui Aossa Plaza",
         "Description" : ""
     },
     {
         "id" : 1,
         "Title": "Fukui Shinkansen Celebration",
-        "Date" : 0,
-        "Time" : 0,
-        "Location" : "Fukui",
+        "Date" : "2022/7/12",
+        "Time" : "16:10",
+        "Location" : "Fukui University of Technology",
         "Description" : ""
     },
     {
         "id" : 2, 
         "Title": "Rotary Club",
-        "Date" : "2022/7/10",
+        "Date" : "2022/7/01",
         "Time" : "17:10",
-        "Location" : "Fukui",
+        "Location" : "Fukui Lpa Shopping Mall Lobby",
         "Description" : ""
     }
 ]

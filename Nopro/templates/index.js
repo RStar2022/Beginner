@@ -52,13 +52,52 @@ function initMap() {
 }
 
 async function main() {
-	const response = await fetch("http://localhost:5000/events/1", {mode: 'cors'});
+	const response = await fetch("http://localhost:5000/events/0", {mode: 'cors'});
 	const jsonData = await response.json();
 
 	console.log(jsonData);
 
 	var sportText = document.getElementById('sport-text');
 	sportText.innerText = jsonData.Title;
+  var sportDate = document.getElementById('sport-date');
+  sportDate.innerText = jsonData.Date;
+  var sportTime = document.getElementById('sport-time');
+  sportTime.innerText = jsonData.Time;
+  var sportLocation = document.getElementById('sport-locaiton');
+  sportLocation.innerText = jsonData.Location;
+}
+
+async function main() {
+	const response = await fetch("http://localhost:5000/events/1", {mode: 'cors'});
+	const jsonData = await response.json();
+
+	console.log(jsonData);
+
+  var volunteerText = document.getElementById('volunteer-text');
+	volunteerText.innerText = jsonData.Title;
+  var volunteerDate = document.getElementById('volunteer-date');
+  volunteerDate.innerText = jsonData.Date;
+  var volunteerTime = document.getElementById('volunteer-time');
+  volunteerTime.innerText = jsonData.Time;
+  var volunteerLocation = document.getElementById('volunteer-location');
+  volunteerLocation.innerText = jsonData.Location;
+}
+
+async function main() {
+	const response = await fetch("http://localhost:5000/events/2", {mode: 'cors'});
+	const jsonData = await response.json();
+
+	console.log(jsonData);
+
+  var exchangeText = document.getElementById('exchange-text');
+	exchangeText.innerText = jsonData.Title;
+  var exchangeTime = document.getElementById('exchange-time');
+  exchangeTime.innerText = jsonData.Date;
+  var exchangeDate = document.getElementById('exchange-date');
+  exchangeDate.innerText = jsonData.Time;
+  var exchangeLocation = document.getElementById('exchange-location');
+  exchangeLocation.innerText = jsonData.Location;
+
 }
 
 window.onload = main;
