@@ -1,42 +1,64 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-  }
-  
-  h1 {
-    font-family: 'Sacramento', cursive;
-    text-align: center;
-    margin-top: 50px;
-    color: #333;
-  }
-  
-  div {
-    width: 300px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  button {
-    display: block;
-    width: 200px;
-    margin: 20px auto;
-    padding: 10px;
-    background-color: #4caf50;
-    color: #fff;
-    font-family: 'Merriweather', serif;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  button:hover {
-    background-color: #45a049;
-  }
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  text-align: left;
+  margin: 0;
+  padding: 10px 0;
+  color: #333;
+}
+
+.map {
+  height: 400px;
+  width: 100%;
+  max-width: 500px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+
+
+button {
+  display: block;
+  width: 200px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}

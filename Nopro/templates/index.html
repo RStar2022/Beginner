@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
@@ -12,37 +11,38 @@
     <title>School Event List</title>
 </head>
 <body>
-
-    <h1>School Event</h1>
-    <div>
-	    <button id="button-volunteer">ボランティア活動</button>
-        <span id="volunteer-text">hello world</span>
-        <span id="volunteer-date">hello world</span>
-        <span id="volunteer-time">hello world</span>
-        <span id="volunteer-location">hello world</span>
-    </div>
-    <div>
-	    <button id="button-sports">スポーツ大会</button>
-	    <span id="sport-text">hello world</span>
-        <span id="sport-date">hello world</span>
-        <span id="sport-time">hello world</span>
-        <span id="sport-location">hello world</span>
-    </div>
-    <div>
-        <button id="navigateToLocation">交流イベント</button>
-        <span id="exchange-text">hello world</span>
-        <span id="exchange-date">hello world</span>
-        <span id="exchange-time">hello world</span>
-        <span id="exchange-location">hello world</span>
-    </div>
+    <div class="container">
+        <div class="data">
+          <h1>School Event</h1>
+          <div class="event">
+            <button id="button-volunteer">ボランティア活動</button>
+            <span id="volunteer-text">hello world</span><br>
+            <span id="volunteer-date">hello world</span><br>
+            <span id="volunteer-time">hello world</span><br>
+            <span id="volunteer-location">hello world</span>
+          </div>
+          <div class="event">
+            <button id="button-sports">スポーツ大会</button>
+            <span id="sport-text">hello world</span><br>
+            <span id="sport-date">hello world</span><br>
+            <span id="sport-time">hello world</span><br>
+            <span id="sport-location">hello world</span>
+          </div>
+          <div class="event">
+            <button id="button-exchange">交流イベント</button>
+            <span id="exchange-text">hello world</span><br>
+            <span id="exchange-date">hello world</span><br>
+            <span id="exchange-time">hello world</span><br>
+            <span id="exchange-location">hello world</span>
+          </div>
+        </div>
+        <div id="map" class="map"></div>
+      </div>
+      
+      
 
     <script src="index.js"></script>
-
-    <h3>Google Maps</h3>
-    <div id = "map"></div>
-    <script src = <script defer src="<https://maps.googleapis.com/maps/api/js?key=AIzaSyAZU3ZmLIukJCl_5Wx2vXRnI-DvMbH9tL8&callback=initMap>"
-        defer
-        ></script> >
-
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZU3ZmLIukJCl_5Wx2vXRnI-DvMbH9tL8&callback=initMap"  ></script>
 </body>
 </html>
