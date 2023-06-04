@@ -100,4 +100,5 @@ async function main() {
 
 }
 
+windows.initMap = initMap;
 window.onload = main;

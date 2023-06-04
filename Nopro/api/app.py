@@ -1,8 +1,5 @@
 from flask import Flask, render_template, request, jsonify, Response
 from flask_restful import Api, Resource, reqparse, fields, marshal_with, abort
-from wtforms import StringField, SubmitField, IntegerField
-from flask_wtf import FlaskForm, CSRFProtect
-from wtforms.validators import DataRequired
 from flask_cors import CORS, cross_origin
 
 
