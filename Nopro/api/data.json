@@ -2,23 +2,23 @@
     {
         "id" : 0,
         "Title": "Fukui Anniversary",
-        "Date" : "2022/7/10",
+        "Date" : "2023/7/10",
         "Time" : "10:00",
         "Location" : "Fukui Aossa Plaza",
-        "Description" : ""
+        "Description" : "Let's join our Volunteer Activities regarding the Celebration of the First Shinkansen in Fukui.For more information please access our website"
     },
     {
         "id" : 1,
         "Title": "Fukui Shinkansen Celebration",
-        "Date" : "2022/7/12",
+        "Date" : "2023/7/12",
         "Time" : "16:10",
-        "Location" : "Fukui University of Technology",
+        "Location" : "Fukui Station",
         "Description" : ""
     },
     {
         "id" : 2, 
         "Title": "Rotary Club",
-        "Date" : "2022/7/01",
+        "Date" : "2023/7/01",
         "Time" : "17:10",
         "Location" : "Fukui Lpa Shopping Mall Lobby",
         "Description" : ""
